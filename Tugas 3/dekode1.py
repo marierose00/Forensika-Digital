@@ -47,6 +47,6 @@ def create_pdf_without_hidden_logo(input_pdf, output_pdf):
 
 # Contoh penggunaan
 input_pdf = 'output.pdf'
-output_pdf = 'outputdekode1.pdf'
+output_pdf = 'outputdekode.pdf'
 
 create_pdf_without_hidden_logo(input_pdf, output_pdf)
