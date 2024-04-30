@@ -81,9 +81,9 @@ def edit_pdf_with_modifications(input_pdf, output_pdf, new_metadata, logo_path):
 
 
 # Contoh penggunaan
-input_pdf = 'ex.pdf'
-output_pdf = 'output_with_hidden_logo_and_metadata.pdf'
+input_pdf = 'input.pdf'
+output_pdf = 'output.pdf'
 logo_path = 'logotelu.png'  # Ganti dengan path ke file logo Anda
-new_metadata = {'/Title': 'Sejarah Digital Forensik', '/Author': 'Tejo', '/Subject': 'New Subject'}
+new_metadata = {'/Title': 'Rancang Bangun Sistem Informasi Perancangan Pengadaan Barang Menggunakan Framework Laravel (Studi Kasus Universitas XYZ)', '/Author': 'Dharma Marie Satoto', '/Subject': 'Digital Forensic'}
 
 edit_pdf_with_modifications(input_pdf, output_pdf, new_metadata, logo_path)
